@@ -1,0 +1,96 @@
+*{padding: 0; margin: 0;}
+
+body{style: width:100%; height:400%;}
+
+@media screen and (max-width: 1000px){
+    body{
+        background: rgba(0, 0, 0, 1.0);
+    }
+}
+
+#positionrelative{
+    position: relative;
+}
+
+#positionabsolute{
+    position: absolute;
+}
+
+#square1 {
+    float: center;
+    width: 100%;
+    height: 50px;
+    background: rgba(41, 41, 41, 1);}
+
+#square2 {
+    float: center;
+    width: 100%;
+    height: 70px;
+}
+#square3 {
+    float: left;
+    width: 10%;
+    height: 300%;
+}
+
+#square4 {
+    border-radius: 10px;
+    float: left;
+    width: 80%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#square5 {
+    float: left;
+    width: 700px;
+    height: 466px;}
+
+#filadelfia {
+    margin: 30px 20px;
+    position: absolute;
+}
+
+#YangnyeomChickin {
+    margin: 0px 19px;
+    position: relative;
+}
+
+#YangnyeomChickinbackground{
+    margin: 0px 5px;
+    position: absolute;
+}
+
+#YangnyeomChickinreadmore{
+    position: relative;
+    margin: 225px 30px;
+}
+
+#square6 {
+    float: right;
+    width: 470px;
+    height: 3500px;
+}
+
+#namjoonbackground {
+    position: absolute;
+}
+
+#square7 {
+    float: left;
+    width: 340px;
+    height: 474px;
+}
+
+#square8 {
+    float: right;
+    width: 360;
+    height: 793;
+}
+
+#square9 {
+    float: left;
+    width: 340px;
+    height: 793px;
+    background: rgba(0, 0, 0, 1.0);
+}
